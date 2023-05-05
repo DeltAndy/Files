@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Brave</ShortName>
+  <Description>Search Brave</Description>
+  <Url type="text/html" method="get" template="https://search.brave.com/search?q={searchTerms}&amp;source=web"/>
+  <Url type="application/x-suggestions+json" template="https://search.brave.com/api/suggest?q={searchTerms}&amp;source=web"/>
+  <InputEncoding>UTF-8</InputEncoding>
+</OpenSearchDescription>
